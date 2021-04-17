@@ -1,2 +1,43 @@
 /target
 .vscode
+
+# vim and emacs
+(.*/)?\#[^/]*\#$
+*.swp
+
+# binaries
+*.ipa
+*.apk
+*.app
+*.dSYM
+
+# Mac OS X
+.DS_Store
+__MACOSX
+
+# Jetbrains
+.idea
+
+# ruby/calabash/cucumber
+.irb-history
+.irbrc-*
+.bundle
+*.gem
+reports
+screenshots
+*screenshot*.png
+.ruby-version
+.pry-history
+
+# Xcode 4+
+*.xcodeproj/*.mode*
+*.xcodeproj/*.perspective*
+*.xcodeproj/*.pbxuser
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcuserdatad
+*.xccheckout
+*.xcscmblueprint
+
+## Build products
+build
